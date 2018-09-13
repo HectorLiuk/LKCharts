@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4C85CE0214A05C100C2BCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C85CDF214A05C100C2BCD8 /* AppDelegate.swift */; };
+		C4C85CE2214A05C100C2BCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C85CE1214A05C100C2BCD8 /* ViewController.swift */; };
+		C4C85CE5214A05C100C2BCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C85CE3214A05C100C2BCD8 /* Main.storyboard */; };
+		C4C85CE7214A05C200C2BCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C85CE6214A05C200C2BCD8 /* Assets.xcassets */; };
+		C4C85CEA214A05C200C2BCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C85CE8214A05C200C2BCD8 /* LaunchScreen.storyboard */; };
+		C4C85CF5214A05C200C2BCD8 /* LKChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C85CF4214A05C200C2BCD8 /* LKChartsTests.swift */; };
+		C4C85D00214A05C200C2BCD8 /* LKChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C85CFF214A05C200C2BCD8 /* LKChartsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4C85CF1214A05C200C2BCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C85CD4214A05C100C2BCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C85CDB214A05C100C2BCD8;
+			remoteInfo = LKCharts;
+		};
+		C4C85CFC214A05C200C2BCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4C85CD4214A05C100C2BCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C85CDB214A05C100C2BCD8;
+			remoteInfo = LKCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4C85CDC214A05C100C2BCD8 /* LKCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C85CDF214A05C100C2BCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4C85CE1214A05C100C2BCD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4C85CE4214A05C100C2BCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4C85CE6214A05C200C2BCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4C85CE9214A05C200C2BCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4C85CEB214A05C200C2BCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C85CF0214A05C200C2BCD8 /* LKChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C85CF4214A05C200C2BCD8 /* LKChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKChartsTests.swift; sourceTree = "<group>"; };
+		C4C85CF6214A05C200C2BCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C85CFB214A05C200C2BCD8 /* LKChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4C85CFF214A05C200C2BCD8 /* LKChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKChartsUITests.swift; sourceTree = "<group>"; };
+		C4C85D01214A05C200C2BCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4C85CD9214A05C100C2BCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C85CED214A05C200C2BCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C85CF8214A05C200C2BCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4C85CD3214A05C100C2BCD8 = {
+			isa = PBXGroup;
+			children = (
+				C4C85CDE214A05C100C2BCD8 /* LKCharts */,
+				C4C85CF3214A05C200C2BCD8 /* LKChartsTests */,
+				C4C85CFE214A05C200C2BCD8 /* LKChartsUITests */,
+				C4C85CDD214A05C100C2BCD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4C85CDD214A05C100C2BCD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4C85CDC214A05C100C2BCD8 /* LKCharts.app */,
+				C4C85CF0214A05C200C2BCD8 /* LKChartsTests.xctest */,
+				C4C85CFB214A05C200C2BCD8 /* LKChartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4C85CDE214A05C100C2BCD8 /* LKCharts */ = {
+			isa = PBXGroup;
+			children = (
+				C4C85CDF214A05C100C2BCD8 /* AppDelegate.swift */,
+				C4C85CE1214A05C100C2BCD8 /* ViewController.swift */,
+				C4C85CE3214A05C100C2BCD8 /* Main.storyboard */,
+				C4C85CE6214A05C200C2BCD8 /* Assets.xcassets */,
+				C4C85CE8214A05C200C2BCD8 /* LaunchScreen.storyboard */,
+				C4C85CEB214A05C200C2BCD8 /* Info.plist */,
+			);
+			path = LKCharts;
+			sourceTree = "<group>";
+		};
+		C4C85CF3214A05C200C2BCD8 /* LKChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4C85CF4214A05C200C2BCD8 /* LKChartsTests.swift */,
+				C4C85CF6214A05C200C2BCD8 /* Info.plist */,
+			);
+			path = LKChartsTests;
+			sourceTree = "<group>";
+		};
+		C4C85CFE214A05C200C2BCD8 /* LKChartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4C85CFF214A05C200C2BCD8 /* LKChartsUITests.swift */,
+				C4C85D01214A05C200C2BCD8 /* Info.plist */,
+			);
+			path = LKChartsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4C85CDB214A05C100C2BCD8 /* LKCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C85D04214A05C200C2BCD8 /* Build configuration list for PBXNativeTarget "LKCharts" */;
+			buildPhases = (
+				C4C85CD8214A05C100C2BCD8 /* Sources */,
+				C4C85CD9214A05C100C2BCD8 /* Frameworks */,
+				C4C85CDA214A05C100C2BCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKCharts;
+			productName = LKCharts;
+			productReference = C4C85CDC214A05C100C2BCD8 /* LKCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4C85CEF214A05C200C2BCD8 /* LKChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C85D07214A05C200C2BCD8 /* Build configuration list for PBXNativeTarget "LKChartsTests" */;
+			buildPhases = (
+				C4C85CEC214A05C200C2BCD8 /* Sources */,
+				C4C85CED214A05C200C2BCD8 /* Frameworks */,
+				C4C85CEE214A05C200C2BCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4C85CF2214A05C200C2BCD8 /* PBXTargetDependency */,
+			);
+			name = LKChartsTests;
+			productName = LKChartsTests;
+			productReference = C4C85CF0214A05C200C2BCD8 /* LKChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4C85CFA214A05C200C2BCD8 /* LKChartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C85D0A214A05C200C2BCD8 /* Build configuration list for PBXNativeTarget "LKChartsUITests" */;
+			buildPhases = (
+				C4C85CF7214A05C200C2BCD8 /* Sources */,
+				C4C85CF8214A05C200C2BCD8 /* Frameworks */,
+				C4C85CF9214A05C200C2BCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4C85CFD214A05C200C2BCD8 /* PBXTargetDependency */,
+			);
+			name = LKChartsUITests;
+			productName = LKChartsUITests;
+			productReference = C4C85CFB214A05C200C2BCD8 /* LKChartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4C85CD4214A05C100C2BCD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Hector;
+				TargetAttributes = {
+					C4C85CDB214A05C100C2BCD8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C4C85CEF214A05C200C2BCD8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C4C85CDB214A05C100C2BCD8;
+					};
+					C4C85CFA214A05C200C2BCD8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C4C85CDB214A05C100C2BCD8;
+					};
+				};
+			};
+			buildConfigurationList = C4C85CD7214A05C100C2BCD8 /* Build configuration list for PBXProject "LKCharts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4C85CD3214A05C100C2BCD8;
+			productRefGroup = C4C85CDD214A05C100C2BCD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4C85CDB214A05C100C2BCD8 /* LKCharts */,
+				C4C85CEF214A05C200C2BCD8 /* LKChartsTests */,
+				C4C85CFA214A05C200C2BCD8 /* LKChartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4C85CDA214A05C100C2BCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C85CEA214A05C200C2BCD8 /* LaunchScreen.storyboard in Resources */,
+				C4C85CE7214A05C200C2BCD8 /* Assets.xcassets in Resources */,
+				C4C85CE5214A05C100C2BCD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C85CEE214A05C200C2BCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C85CF9214A05C200C2BCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4C85CD8214A05C100C2BCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C85CE2214A05C100C2BCD8 /* ViewController.swift in Sources */,
+				C4C85CE0214A05C100C2BCD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C85CEC214A05C200C2BCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C85CF5214A05C200C2BCD8 /* LKChartsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C85CF7214A05C200C2BCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C85D00214A05C200C2BCD8 /* LKChartsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4C85CF2214A05C200C2BCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C85CDB214A05C100C2BCD8 /* LKCharts */;
+			targetProxy = C4C85CF1214A05C200C2BCD8 /* PBXContainerItemProxy */;
+		};
+		C4C85CFD214A05C200C2BCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C85CDB214A05C100C2BCD8 /* LKCharts */;
+			targetProxy = C4C85CFC214A05C200C2BCD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4C85CE3214A05C100C2BCD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C85CE4214A05C100C2BCD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4C85CE8214A05C200C2BCD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4C85CE9214A05C200C2BCD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4C85D02214A05C200C2BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4C85D03214A05C200C2BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4C85D05214A05C200C2BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chart.LKCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4C85D06214A05C200C2BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKCharts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chart.LKCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4C85D08214A05C200C2BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chart.LKChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKCharts.app/LKCharts";
+			};
+			name = Debug;
+		};
+		C4C85D09214A05C200C2BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chart.LKChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKCharts.app/LKCharts";
+			};
+			name = Release;
+		};
+		C4C85D0B214A05C200C2BCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chart.LKChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKCharts;
+			};
+			name = Debug;
+		};
+		C4C85D0C214A05C200C2BCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chart.LKChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKCharts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4C85CD7214A05C100C2BCD8 /* Build configuration list for PBXProject "LKCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C85D02214A05C200C2BCD8 /* Debug */,
+				C4C85D03214A05C200C2BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C85D04214A05C200C2BCD8 /* Build configuration list for PBXNativeTarget "LKCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C85D05214A05C200C2BCD8 /* Debug */,
+				C4C85D06214A05C200C2BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C85D07214A05C200C2BCD8 /* Build configuration list for PBXNativeTarget "LKChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C85D08214A05C200C2BCD8 /* Debug */,
+				C4C85D09214A05C200C2BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C85D0A214A05C200C2BCD8 /* Build configuration list for PBXNativeTarget "LKChartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4C85D0B214A05C200C2BCD8 /* Debug */,
+				C4C85D0C214A05C200C2BCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4C85CD4214A05C100C2BCD8 /* Project object */;
+}
